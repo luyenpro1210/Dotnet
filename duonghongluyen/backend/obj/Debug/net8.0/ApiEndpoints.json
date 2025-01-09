@@ -1,0 +1,3354 @@
+[
+  {
+    "ContainingType": "duonghongluyen.Exercise02.Controllers.AttributeController",
+    "Method": "Get",
+    "RelativePath": "api/Attribute",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[duonghongluyen.Exercise02.Models.Attribute, Exercise02, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": ["text/plain", "application/json", "text/json"],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "duonghongluyen.Exercise02.Controllers.AttributeController",
+    "Method": "Post",
+    "RelativePath": "api/Attribute",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "attribute",
+        "Type": "duonghongluyen.Exercise02.Models.Attribute",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "duonghongluyen.Exercise02.Models.Attribute",
+        "MediaTypes": ["text/plain", "application/json", "text/json"],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "duonghongluyen.Exercise02.Controllers.AttributeController",
+    "Method": "Get",
+    "RelativePath": "api/Attribute/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "duonghongluyen.Exercise02.Models.Attribute",
+        "MediaTypes": ["text/plain", "application/json", "text/json"],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "duonghongluyen.Exercise02.Controllers.AttributeController",
+    "Method": "Put",
+    "RelativePath": "api/Attribute/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "attribute",
+        "Type": "duonghongluyen.Exercise02.Models.Attribute",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "duonghongluyen.Exercise02.Controllers.AttributeController",
+    "Method": "Delete",
+    "RelativePath": "api/Attribute/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "duonghongluyen.Exercise02.Controllers.AttributeValueController",
+    "Method": "Get",
+    "RelativePath": "api/AttributeValue",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[duonghongluyen.Exercise02.Models.AttributeValue, Exercise02, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": ["text/plain", "application/json", "text/json"],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "duonghongluyen.Exercise02.Controllers.AttributeValueController",
+    "Method": "Post",
+    "RelativePath": "api/AttributeValue",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "attributeValue",
+        "Type": "duonghongluyen.Exercise02.Models.AttributeValue",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "duonghongluyen.Exercise02.Models.AttributeValue",
+        "MediaTypes": ["text/plain", "application/json", "text/json"],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "duonghongluyen.Exercise02.Controllers.AttributeValueController",
+    "Method": "Get",
+    "RelativePath": "api/AttributeValue/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "duonghongluyen.Exercise02.Models.AttributeValue",
+        "MediaTypes": ["text/plain", "application/json", "text/json"],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "duonghongluyen.Exercise02.Controllers.AttributeValueController",
+    "Method": "Put",
+    "RelativePath": "api/AttributeValue/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "attributeValue",
+        "Type": "duonghongluyen.Exercise02.Models.AttributeValue",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "duonghongluyen.Exercise02.Controllers.AttributeValueController",
+    "Method": "Delete",
+    "RelativePath": "api/AttributeValue/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "duonghongluyen.Exercise02.Controllers.CardItemsController",
+    "Method": "GetCardItems",
+    "RelativePath": "api/CardItems",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[duonghongluyen.Exercise02.Models.CardItem, Exercise02, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": ["text/plain", "application/json", "text/json"],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "duonghongluyen.Exercise02.Controllers.CardItemsController",
+    "Method": "PostCardItem",
+    "RelativePath": "api/CardItems",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cardItem",
+        "Type": "duonghongluyen.Exercise02.Models.CardItem",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "duonghongluyen.Exercise02.Models.CardItem",
+        "MediaTypes": ["text/plain", "application/json", "text/json"],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "duonghongluyen.Exercise02.Controllers.CardItemsController",
+    "Method": "GetCardItem",
+    "RelativePath": "api/CardItems/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "duonghongluyen.Exercise02.Models.CardItem",
+        "MediaTypes": ["text/plain", "application/json", "text/json"],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "duonghongluyen.Exercise02.Controllers.CardItemsController",
+    "Method": "DeleteCardItem",
+    "RelativePath": "api/CardItems/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "duonghongluyen.Exercise02.Controllers.CardsController",
+    "Method": "GetCards",
+    "RelativePath": "api/Cards",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[duonghongluyen.Exercise02.Models.Card, Exercise02, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": ["text/plain", "application/json", "text/json"],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "duonghongluyen.Exercise02.Controllers.CardsController",
+    "Method": "PostCard",
+    "RelativePath": "api/Cards",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "card",
+        "Type": "duonghongluyen.Exercise02.Models.Card",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "duonghongluyen.Exercise02.Models.Card",
+        "MediaTypes": ["text/plain", "application/json", "text/json"],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "duonghongluyen.Exercise02.Controllers.CardsController",
+    "Method": "GetCard",
+    "RelativePath": "api/Cards/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "duonghongluyen.Exercise02.Models.Card",
+        "MediaTypes": ["text/plain", "application/json", "text/json"],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "duonghongluyen.Exercise02.Controllers.CardsController",
+    "Method": "DeleteCard",
+    "RelativePath": "api/Cards/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "duonghongluyen.Exercise02.Controllers.CategoriesController",
+    "Method": "GetCategories",
+    "RelativePath": "api/Categories",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[duonghongluyen.Exercise02.DTOs.CategoryGetDTO, Exercise02, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": ["text/plain", "application/json", "text/json"],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "duonghongluyen.Exercise02.Controllers.CategoriesController",
+    "Method": "PostCategory",
+    "RelativePath": "api/Categories",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ParentId",
+        "Type": "System.Nullable\u00601[[System.Guid, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "CategoryName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "CategoryDescription",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Icon",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Placeholder",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "Active",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      },
+      {
+        "Name": "svgFile",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "duonghongluyen.Exercise02.Models.Category",
+        "MediaTypes": ["text/plain", "application/json", "text/json"],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "duonghongluyen.Exercise02.Controllers.CategoriesController",
+    "Method": "GetCategory",
+    "RelativePath": "api/Categories/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "duonghongluyen.Exercise02.DTOs.CategoryGetDTO",
+        "MediaTypes": ["text/plain", "application/json", "text/json"],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "duonghongluyen.Exercise02.Controllers.CategoriesController",
+    "Method": "PutCategory",
+    "RelativePath": "api/Categories/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "ParentId",
+        "Type": "System.Nullable\u00601[[System.Guid, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "CategoryName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "CategoryDescription",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Icon",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Placeholder",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "Active",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      },
+      {
+        "Name": "svgFile",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "duonghongluyen.Exercise02.Controllers.CategoriesController",
+    "Method": "DeleteCategory",
+    "RelativePath": "api/Categories/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "duonghongluyen.Exercise02.Models.Category",
+        "MediaTypes": ["text/plain", "application/json", "text/json"],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "duonghongluyen.Exercise02.Controllers.CategoriesController",
+    "Method": "GetChildrenCategories",
+    "RelativePath": "api/Categories/{parentId}/Children",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "parentId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[duonghongluyen.Exercise02.DTOs.CategoryGetDTO, Exercise02, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": ["text/plain", "application/json", "text/json"],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "duonghongluyen.Exercise02.Controllers.CategoriesController",
+    "Method": "GetActiveCategories",
+    "RelativePath": "api/Categories/Active",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[duonghongluyen.Exercise02.DTOs.CategoryGetDTO, Exercise02, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": ["text/plain", "application/json", "text/json"],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "duonghongluyen.Exercise02.Controllers.CountryController",
+    "Method": "Get",
+    "RelativePath": "api/Country",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[duonghongluyen.Exercise02.Models.Country, Exercise02, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": ["text/plain", "application/json", "text/json"],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "duonghongluyen.Exercise02.Controllers.CountryController",
+    "Method": "Post",
+    "RelativePath": "api/Country",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "country",
+        "Type": "duonghongluyen.Exercise02.Models.Country",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "duonghongluyen.Exercise02.Models.Country",
+        "MediaTypes": ["text/plain", "application/json", "text/json"],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "duonghongluyen.Exercise02.Controllers.CountryController",
+    "Method": "Get",
+    "RelativePath": "api/Country/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "duonghongluyen.Exercise02.Models.Country",
+        "MediaTypes": ["text/plain", "application/json", "text/json"],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "duonghongluyen.Exercise02.Controllers.CountryController",
+    "Method": "Put",
+    "RelativePath": "api/Country/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "country",
+        "Type": "duonghongluyen.Exercise02.Models.Country",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "duonghongluyen.Exercise02.Controllers.CountryController",
+    "Method": "Delete",
+    "RelativePath": "api/Country/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "duonghongluyen.Exercise02.Controllers.CouponController",
+    "Method": "Get",
+    "RelativePath": "api/Coupon",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[duonghongluyen.Exercise02.Models.Coupon, Exercise02, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": ["text/plain", "application/json", "text/json"],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "duonghongluyen.Exercise02.Controllers.CouponController",
+    "Method": "Post",
+    "RelativePath": "api/Coupon",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "coupon",
+        "Type": "duonghongluyen.Exercise02.Models.Coupon",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "duonghongluyen.Exercise02.Models.Coupon",
+        "MediaTypes": ["text/plain", "application/json", "text/json"],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "duonghongluyen.Exercise02.Controllers.CouponController",
+    "Method": "Get",
+    "RelativePath": "api/Coupon/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "duonghongluyen.Exercise02.Models.Coupon",
+        "MediaTypes": ["text/plain", "application/json", "text/json"],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "duonghongluyen.Exercise02.Controllers.CouponController",
+    "Method": "Put",
+    "RelativePath": "api/Coupon/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "coupon",
+        "Type": "duonghongluyen.Exercise02.Models.Coupon",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "duonghongluyen.Exercise02.Controllers.CouponController",
+    "Method": "Delete",
+    "RelativePath": "api/Coupon/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "duonghongluyen.Exercise02.Controllers.CustomerController",
+    "Method": "Get",
+    "RelativePath": "api/Customer",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[duonghongluyen.Exercise02.Models.Customer, Exercise02, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": ["text/plain", "application/json", "text/json"],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "duonghongluyen.Exercise02.Controllers.CustomerController",
+    "Method": "Post",
+    "RelativePath": "api/Customer",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "customer",
+        "Type": "duonghongluyen.Exercise02.Models.Customer",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "duonghongluyen.Exercise02.Models.Customer",
+        "MediaTypes": ["text/plain", "application/json", "text/json"],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "duonghongluyen.Exercise02.Controllers.CustomerController",
+    "Method": "Get",
+    "RelativePath": "api/Customer/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "duonghongluyen.Exercise02.Models.Customer",
+        "MediaTypes": ["text/plain", "application/json", "text/json"],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "duonghongluyen.Exercise02.Controllers.CustomerController",
+    "Method": "Put",
+    "RelativePath": "api/Customer/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "customer",
+        "Type": "duonghongluyen.Exercise02.Models.Customer",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "duonghongluyen.Exercise02.Controllers.CustomerController",
+    "Method": "Delete",
+    "RelativePath": "api/Customer/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "duonghongluyen.Exercise02.Controllers.CustomerAddressController",
+    "Method": "Get",
+    "RelativePath": "api/CustomerAddress",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[duonghongluyen.Exercise02.Models.CustomerAddress, Exercise02, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": ["text/plain", "application/json", "text/json"],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "duonghongluyen.Exercise02.Controllers.CustomerAddressController",
+    "Method": "Post",
+    "RelativePath": "api/CustomerAddress",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "address",
+        "Type": "duonghongluyen.Exercise02.Models.CustomerAddress",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "duonghongluyen.Exercise02.Models.CustomerAddress",
+        "MediaTypes": ["text/plain", "application/json", "text/json"],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "duonghongluyen.Exercise02.Controllers.CustomerAddressController",
+    "Method": "Get",
+    "RelativePath": "api/CustomerAddress/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "duonghongluyen.Exercise02.Models.CustomerAddress",
+        "MediaTypes": ["text/plain", "application/json", "text/json"],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "duonghongluyen.Exercise02.Controllers.CustomerAddressController",
+    "Method": "Put",
+    "RelativePath": "api/CustomerAddress/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "address",
+        "Type": "duonghongluyen.Exercise02.Models.CustomerAddress",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "duonghongluyen.Exercise02.Controllers.CustomerAddressController",
+    "Method": "Delete",
+    "RelativePath": "api/CustomerAddress/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "duonghongluyen.Exercise02.Controllers.GalleryController",
+    "Method": "Get",
+    "RelativePath": "api/Gallery",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[duonghongluyen.Exercise02.DTOs.GalleryDTO, Exercise02, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": ["text/plain", "application/json", "text/json"],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "duonghongluyen.Exercise02.Controllers.GalleryController",
+    "Method": "Post",
+    "RelativePath": "api/Gallery",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Nullable\u00601[[System.Guid, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "ProductId",
+        "Type": "System.Nullable\u00601[[System.Guid, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "Image",
+        "Type": "System.Byte[]",
+        "IsRequired": false
+      },
+      {
+        "Name": "IsThumbnail",
+        "Type": "System.Nullable\u00601[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "imageFile",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "duonghongluyen.Exercise02.DTOs.GalleryDTO",
+        "MediaTypes": ["text/plain", "application/json", "text/json"],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "duonghongluyen.Exercise02.Controllers.GalleryController",
+    "Method": "Get",
+    "RelativePath": "api/Gallery/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "duonghongluyen.Exercise02.DTOs.GalleryDTO",
+        "MediaTypes": ["text/plain", "application/json", "text/json"],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "duonghongluyen.Exercise02.Controllers.GalleryController",
+    "Method": "Put",
+    "RelativePath": "api/Gallery/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "Id",
+        "Type": "System.Nullable\u00601[[System.Guid, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "ProductId",
+        "Type": "System.Nullable\u00601[[System.Guid, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "Image",
+        "Type": "System.Byte[]",
+        "IsRequired": false
+      },
+      {
+        "Name": "IsThumbnail",
+        "Type": "System.Nullable\u00601[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "imageFile",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "duonghongluyen.Exercise02.Controllers.GalleryController",
+    "Method": "Delete",
+    "RelativePath": "api/Gallery/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "duonghongluyen.Exercise02.Controllers.GalleryController",
+    "Method": "GetByProductId",
+    "RelativePath": "api/Gallery/by-product/{productId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "productId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[duonghongluyen.Exercise02.DTOs.GalleryDTO, Exercise02, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": ["text/plain", "application/json", "text/json"],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "duonghongluyen.Exercise02.Controllers.GalleryController",
+    "Method": "PostMultipleImages",
+    "RelativePath": "api/Gallery/multiple",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Nullable\u00601[[System.Guid, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "ProductId",
+        "Type": "System.Nullable\u00601[[System.Guid, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "Image",
+        "Type": "System.Byte[]",
+        "IsRequired": false
+      },
+      {
+        "Name": "IsThumbnail",
+        "Type": "System.Nullable\u00601[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "imageFiles",
+        "Type": "System.Collections.Generic.List\u00601[[Microsoft.AspNetCore.Http.IFormFile, Microsoft.AspNetCore.Http.Features, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "duonghongluyen.Exercise02.Controllers.NotificationController",
+    "Method": "Get",
+    "RelativePath": "api/Notification",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[duonghongluyen.Exercise02.Models.Notification, Exercise02, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": ["text/plain", "application/json", "text/json"],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "duonghongluyen.Exercise02.Controllers.NotificationController",
+    "Method": "Post",
+    "RelativePath": "api/Notification",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "notification",
+        "Type": "duonghongluyen.Exercise02.Models.Notification",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "duonghongluyen.Exercise02.Models.Notification",
+        "MediaTypes": ["text/plain", "application/json", "text/json"],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "duonghongluyen.Exercise02.Controllers.NotificationController",
+    "Method": "Get",
+    "RelativePath": "api/Notification/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "duonghongluyen.Exercise02.Models.Notification",
+        "MediaTypes": ["text/plain", "application/json", "text/json"],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "duonghongluyen.Exercise02.Controllers.NotificationController",
+    "Method": "Put",
+    "RelativePath": "api/Notification/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "notification",
+        "Type": "duonghongluyen.Exercise02.Models.Notification",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "duonghongluyen.Exercise02.Controllers.NotificationController",
+    "Method": "Delete",
+    "RelativePath": "api/Notification/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "duonghongluyen.Exercise02.Controllers.OrderController",
+    "Method": "Get",
+    "RelativePath": "api/Order",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[duonghongluyen.Exercise02.Models.Order, Exercise02, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": ["text/plain", "application/json", "text/json"],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "duonghongluyen.Exercise02.Controllers.OrderController",
+    "Method": "Post",
+    "RelativePath": "api/Order",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "order",
+        "Type": "duonghongluyen.Exercise02.Models.Order",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "duonghongluyen.Exercise02.Models.Order",
+        "MediaTypes": ["text/plain", "application/json", "text/json"],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "duonghongluyen.Exercise02.Controllers.OrderController",
+    "Method": "Get",
+    "RelativePath": "api/Order/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "duonghongluyen.Exercise02.Models.Order",
+        "MediaTypes": ["text/plain", "application/json", "text/json"],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "duonghongluyen.Exercise02.Controllers.OrderController",
+    "Method": "Put",
+    "RelativePath": "api/Order/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "order",
+        "Type": "duonghongluyen.Exercise02.Models.Order",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "duonghongluyen.Exercise02.Controllers.OrderController",
+    "Method": "Delete",
+    "RelativePath": "api/Order/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "duonghongluyen.Exercise02.Controllers.OrderItemController",
+    "Method": "Get",
+    "RelativePath": "api/OrderItem",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[duonghongluyen.Exercise02.Models.OrderItem, Exercise02, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": ["text/plain", "application/json", "text/json"],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "duonghongluyen.Exercise02.Controllers.OrderItemController",
+    "Method": "Post",
+    "RelativePath": "api/OrderItem",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "orderItem",
+        "Type": "duonghongluyen.Exercise02.Models.OrderItem",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "duonghongluyen.Exercise02.Models.OrderItem",
+        "MediaTypes": ["text/plain", "application/json", "text/json"],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "duonghongluyen.Exercise02.Controllers.OrderItemController",
+    "Method": "Get",
+    "RelativePath": "api/OrderItem/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "duonghongluyen.Exercise02.Models.OrderItem",
+        "MediaTypes": ["text/plain", "application/json", "text/json"],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "duonghongluyen.Exercise02.Controllers.OrderItemController",
+    "Method": "Put",
+    "RelativePath": "api/OrderItem/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "orderItem",
+        "Type": "duonghongluyen.Exercise02.Models.OrderItem",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "duonghongluyen.Exercise02.Controllers.OrderItemController",
+    "Method": "Delete",
+    "RelativePath": "api/OrderItem/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "duonghongluyen.Exercise02.Controllers.OrderStatusController",
+    "Method": "Get",
+    "RelativePath": "api/OrderStatus",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[duonghongluyen.Exercise02.Models.OrderStatus, Exercise02, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": ["text/plain", "application/json", "text/json"],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "duonghongluyen.Exercise02.Controllers.OrderStatusController",
+    "Method": "Post",
+    "RelativePath": "api/OrderStatus",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "employee",
+        "Type": "duonghongluyen.Exercise02.Models.OrderStatus",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "duonghongluyen.Exercise02.Controllers.OrderStatusController",
+    "Method": "Get",
+    "RelativePath": "api/OrderStatus/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "duonghongluyen.Exercise02.Models.OrderStatus",
+        "MediaTypes": ["text/plain", "application/json", "text/json"],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "duonghongluyen.Exercise02.Controllers.OrderStatusController",
+    "Method": "Put",
+    "RelativePath": "api/OrderStatus/id",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": false
+      },
+      {
+        "Name": "e",
+        "Type": "duonghongluyen.Exercise02.Models.OrderStatus",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "duonghongluyen.Exercise02.Controllers.OrderStatusController",
+    "Method": "Delete",
+    "RelativePath": "api/OrderStatus/id",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "duonghongluyen.Exercise02.Controllers.ProductController",
+    "Method": "Get",
+    "RelativePath": "api/Product",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[duonghongluyen.Exercise02.DTOs.ProductDTO, Exercise02, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": ["text/plain", "application/json", "text/json"],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "duonghongluyen.Exercise02.Controllers.ProductController",
+    "Method": "Post",
+    "RelativePath": "api/Product",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "productDTO",
+        "Type": "duonghongluyen.Exercise02.DTOs.ProductDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "duonghongluyen.Exercise02.DTOs.ProductDTO",
+        "MediaTypes": ["text/plain", "application/json", "text/json"],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "duonghongluyen.Exercise02.Controllers.ProductController",
+    "Method": "Get",
+    "RelativePath": "api/Product/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "duonghongluyen.Exercise02.DTOs.ProductDTO",
+        "MediaTypes": ["text/plain", "application/json", "text/json"],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "duonghongluyen.Exercise02.Controllers.ProductController",
+    "Method": "Put",
+    "RelativePath": "api/Product/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "productDTO",
+        "Type": "duonghongluyen.Exercise02.DTOs.ProductDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "duonghongluyen.Exercise02.Controllers.ProductController",
+    "Method": "Delete",
+    "RelativePath": "api/Product/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "duonghongluyen.Exercise02.Controllers.ProductController",
+    "Method": "Get",
+    "RelativePath": "api/Product/Tag/{tagName}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "tagName",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[duonghongluyen.Exercise02.DTOs.ProductDTO, Exercise02, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": ["text/plain", "application/json", "text/json"],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "duonghongluyen.Exercise02.Controllers.ProductAttributeController",
+    "Method": "Get",
+    "RelativePath": "api/ProductAttribute",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[duonghongluyen.Exercise02.Models.ProductAttribute, Exercise02, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": ["text/plain", "application/json", "text/json"],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "duonghongluyen.Exercise02.Controllers.ProductAttributeController",
+    "Method": "Post",
+    "RelativePath": "api/ProductAttribute",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "productAttribute",
+        "Type": "duonghongluyen.Exercise02.Models.ProductAttribute",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "duonghongluyen.Exercise02.Models.ProductAttribute",
+        "MediaTypes": ["text/plain", "application/json", "text/json"],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "duonghongluyen.Exercise02.Controllers.ProductAttributeController",
+    "Method": "Get",
+    "RelativePath": "api/ProductAttribute/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "duonghongluyen.Exercise02.Models.ProductAttribute",
+        "MediaTypes": ["text/plain", "application/json", "text/json"],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "duonghongluyen.Exercise02.Controllers.ProductAttributeController",
+    "Method": "Put",
+    "RelativePath": "api/ProductAttribute/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "productAttribute",
+        "Type": "duonghongluyen.Exercise02.Models.ProductAttribute",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "duonghongluyen.Exercise02.Controllers.ProductAttributeController",
+    "Method": "Delete",
+    "RelativePath": "api/ProductAttribute/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "duonghongluyen.Exercise02.Controllers.ProductAttributeValueController",
+    "Method": "Get",
+    "RelativePath": "api/ProductAttributeValue",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[duonghongluyen.Exercise02.Models.ProductAttributeValue, Exercise02, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": ["text/plain", "application/json", "text/json"],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "duonghongluyen.Exercise02.Controllers.ProductAttributeValueController",
+    "Method": "Post",
+    "RelativePath": "api/ProductAttributeValue",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "productAttributeValue",
+        "Type": "duonghongluyen.Exercise02.Models.ProductAttributeValue",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "duonghongluyen.Exercise02.Models.ProductAttributeValue",
+        "MediaTypes": ["text/plain", "application/json", "text/json"],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "duonghongluyen.Exercise02.Controllers.ProductAttributeValueController",
+    "Method": "Get",
+    "RelativePath": "api/ProductAttributeValue/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "duonghongluyen.Exercise02.Models.ProductAttributeValue",
+        "MediaTypes": ["text/plain", "application/json", "text/json"],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "duonghongluyen.Exercise02.Controllers.ProductAttributeValueController",
+    "Method": "Put",
+    "RelativePath": "api/ProductAttributeValue/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "productAttributeValue",
+        "Type": "duonghongluyen.Exercise02.Models.ProductAttributeValue",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "duonghongluyen.Exercise02.Controllers.ProductAttributeValueController",
+    "Method": "Delete",
+    "RelativePath": "api/ProductAttributeValue/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "duonghongluyen.Exercise02.Controllers.ProductCategoryController",
+    "Method": "Get",
+    "RelativePath": "api/ProductCategory",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[duonghongluyen.Exercise02.Models.ProductCategory, Exercise02, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": ["text/plain", "application/json", "text/json"],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "duonghongluyen.Exercise02.Controllers.ProductCategoryController",
+    "Method": "Post",
+    "RelativePath": "api/ProductCategory",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "productCategory",
+        "Type": "duonghongluyen.Exercise02.Models.ProductCategory",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "duonghongluyen.Exercise02.Models.ProductCategory",
+        "MediaTypes": ["text/plain", "application/json", "text/json"],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "duonghongluyen.Exercise02.Controllers.ProductCategoryController",
+    "Method": "Get",
+    "RelativePath": "api/ProductCategory/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "duonghongluyen.Exercise02.Models.ProductCategory",
+        "MediaTypes": ["text/plain", "application/json", "text/json"],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "duonghongluyen.Exercise02.Controllers.ProductCategoryController",
+    "Method": "Put",
+    "RelativePath": "api/ProductCategory/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "productCategory",
+        "Type": "duonghongluyen.Exercise02.Models.ProductCategory",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "duonghongluyen.Exercise02.Controllers.ProductCategoryController",
+    "Method": "Delete",
+    "RelativePath": "api/ProductCategory/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "duonghongluyen.Exercise02.Controllers.ProductCouponController",
+    "Method": "Get",
+    "RelativePath": "api/ProductCoupon",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[duonghongluyen.Exercise02.Models.ProductCoupon, Exercise02, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": ["text/plain", "application/json", "text/json"],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "duonghongluyen.Exercise02.Controllers.ProductCouponController",
+    "Method": "Post",
+    "RelativePath": "api/ProductCoupon",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "productCoupon",
+        "Type": "duonghongluyen.Exercise02.Models.ProductCoupon",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "duonghongluyen.Exercise02.Models.ProductCoupon",
+        "MediaTypes": ["text/plain", "application/json", "text/json"],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "duonghongluyen.Exercise02.Controllers.ProductCouponController",
+    "Method": "Get",
+    "RelativePath": "api/ProductCoupon/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "duonghongluyen.Exercise02.Models.ProductCoupon",
+        "MediaTypes": ["text/plain", "application/json", "text/json"],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "duonghongluyen.Exercise02.Controllers.ProductCouponController",
+    "Method": "Put",
+    "RelativePath": "api/ProductCoupon/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "productCoupon",
+        "Type": "duonghongluyen.Exercise02.Models.ProductCoupon",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "duonghongluyen.Exercise02.Controllers.ProductCouponController",
+    "Method": "Delete",
+    "RelativePath": "api/ProductCoupon/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "duonghongluyen.Exercise02.Controllers.ProductShippingController",
+    "Method": "Get",
+    "RelativePath": "api/ProductShipping",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[duonghongluyen.Exercise02.Models.ProductShipping, Exercise02, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": ["text/plain", "application/json", "text/json"],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "duonghongluyen.Exercise02.Controllers.ProductShippingController",
+    "Method": "Post",
+    "RelativePath": "api/ProductShipping",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "productShipping",
+        "Type": "duonghongluyen.Exercise02.Models.ProductShipping",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "duonghongluyen.Exercise02.Models.ProductShipping",
+        "MediaTypes": ["text/plain", "application/json", "text/json"],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "duonghongluyen.Exercise02.Controllers.ProductShippingController",
+    "Method": "Get",
+    "RelativePath": "api/ProductShipping/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "duonghongluyen.Exercise02.Models.ProductShipping",
+        "MediaTypes": ["text/plain", "application/json", "text/json"],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "duonghongluyen.Exercise02.Controllers.ProductShippingController",
+    "Method": "Put",
+    "RelativePath": "api/ProductShipping/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "productShipping",
+        "Type": "duonghongluyen.Exercise02.Models.ProductShipping",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "duonghongluyen.Exercise02.Controllers.ProductShippingController",
+    "Method": "Delete",
+    "RelativePath": "api/ProductShipping/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "duonghongluyen.Exercise02.Controllers.ProductSupplierController",
+    "Method": "Get",
+    "RelativePath": "api/ProductSupplier",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[duonghongluyen.Exercise02.Models.ProductSupplier, Exercise02, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": ["text/plain", "application/json", "text/json"],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "duonghongluyen.Exercise02.Controllers.ProductSupplierController",
+    "Method": "Post",
+    "RelativePath": "api/ProductSupplier",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "productSupplier",
+        "Type": "duonghongluyen.Exercise02.Models.ProductSupplier",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "duonghongluyen.Exercise02.Models.ProductSupplier",
+        "MediaTypes": ["text/plain", "application/json", "text/json"],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "duonghongluyen.Exercise02.Controllers.ProductSupplierController",
+    "Method": "Get",
+    "RelativePath": "api/ProductSupplier/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "duonghongluyen.Exercise02.Models.ProductSupplier",
+        "MediaTypes": ["text/plain", "application/json", "text/json"],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "duonghongluyen.Exercise02.Controllers.ProductSupplierController",
+    "Method": "Put",
+    "RelativePath": "api/ProductSupplier/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "productSupplier",
+        "Type": "duonghongluyen.Exercise02.Models.ProductSupplier",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "duonghongluyen.Exercise02.Controllers.ProductSupplierController",
+    "Method": "Delete",
+    "RelativePath": "api/ProductSupplier/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "duonghongluyen.Exercise02.Controllers.ProductTagController",
+    "Method": "Get",
+    "RelativePath": "api/ProductTag",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[duonghongluyen.Exercise02.Models.ProductTag, Exercise02, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": ["text/plain", "application/json", "text/json"],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "duonghongluyen.Exercise02.Controllers.ProductTagController",
+    "Method": "Post",
+    "RelativePath": "api/ProductTag",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "productTagDto",
+        "Type": "Exercise02.DTOs.ProductTagDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "duonghongluyen.Exercise02.Models.ProductTag",
+        "MediaTypes": ["text/plain", "application/json", "text/json"],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "duonghongluyen.Exercise02.Controllers.ProductTagController",
+    "Method": "Get",
+    "RelativePath": "api/ProductTag/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "duonghongluyen.Exercise02.Models.ProductTag",
+        "MediaTypes": ["text/plain", "application/json", "text/json"],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "duonghongluyen.Exercise02.Controllers.ProductTagController",
+    "Method": "Put",
+    "RelativePath": "api/ProductTag/{tagId}/{productId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "tagId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "productId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "productTagDto",
+        "Type": "Exercise02.DTOs.ProductTagDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "duonghongluyen.Exercise02.Controllers.ProductTagController",
+    "Method": "Delete",
+    "RelativePath": "api/ProductTag/{tagId}/{productId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "tagId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "productId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "duonghongluyen.Exercise02.Controllers.ProductTagController",
+    "Method": "GetByTagName",
+    "RelativePath": "api/ProductTag/tag/{tagName}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "tagName",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Exercise02.DTOs.ProductTagGetAll, Exercise02, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": ["text/plain", "application/json", "text/json"],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "duonghongluyen.Exercise02.Controllers.RoleController",
+    "Method": "Get",
+    "RelativePath": "api/Role",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[duonghongluyen.Exercise02.Models.Role, Exercise02, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": ["text/plain", "application/json", "text/json"],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "duonghongluyen.Exercise02.Controllers.RoleController",
+    "Method": "Post",
+    "RelativePath": "api/Role",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "role",
+        "Type": "duonghongluyen.Exercise02.Models.Role",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "duonghongluyen.Exercise02.Models.Role",
+        "MediaTypes": ["text/plain", "application/json", "text/json"],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "duonghongluyen.Exercise02.Controllers.RoleController",
+    "Method": "Get",
+    "RelativePath": "api/Role/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "duonghongluyen.Exercise02.Models.Role",
+        "MediaTypes": ["text/plain", "application/json", "text/json"],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "duonghongluyen.Exercise02.Controllers.RoleController",
+    "Method": "Put",
+    "RelativePath": "api/Role/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "role",
+        "Type": "duonghongluyen.Exercise02.Models.Role",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "duonghongluyen.Exercise02.Controllers.RoleController",
+    "Method": "Delete",
+    "RelativePath": "api/Role/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "duonghongluyen.Exercise02.Controllers.ShippingRateController",
+    "Method": "Get",
+    "RelativePath": "api/ShippingRate",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[duonghongluyen.Exercise02.Models.ShippingRate, Exercise02, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": ["text/plain", "application/json", "text/json"],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "duonghongluyen.Exercise02.Controllers.ShippingRateController",
+    "Method": "Post",
+    "RelativePath": "api/ShippingRate",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "shippingRate",
+        "Type": "duonghongluyen.Exercise02.Models.ShippingRate",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "duonghongluyen.Exercise02.Models.ShippingRate",
+        "MediaTypes": ["text/plain", "application/json", "text/json"],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "duonghongluyen.Exercise02.Controllers.ShippingRateController",
+    "Method": "Get",
+    "RelativePath": "api/ShippingRate/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "duonghongluyen.Exercise02.Models.ShippingRate",
+        "MediaTypes": ["text/plain", "application/json", "text/json"],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "duonghongluyen.Exercise02.Controllers.ShippingRateController",
+    "Method": "Put",
+    "RelativePath": "api/ShippingRate/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "shippingRate",
+        "Type": "duonghongluyen.Exercise02.Models.ShippingRate",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "duonghongluyen.Exercise02.Controllers.ShippingRateController",
+    "Method": "Delete",
+    "RelativePath": "api/ShippingRate/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "duonghongluyen.Exercise02.Controllers.ShippingZoneController",
+    "Method": "Get",
+    "RelativePath": "api/ShippingZone",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[duonghongluyen.Exercise02.Models.ShippingZone, Exercise02, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": ["text/plain", "application/json", "text/json"],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "duonghongluyen.Exercise02.Controllers.ShippingZoneController",
+    "Method": "Post",
+    "RelativePath": "api/ShippingZone",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "shippingZone",
+        "Type": "duonghongluyen.Exercise02.Models.ShippingZone",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "duonghongluyen.Exercise02.Models.ShippingZone",
+        "MediaTypes": ["text/plain", "application/json", "text/json"],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "duonghongluyen.Exercise02.Controllers.ShippingZoneController",
+    "Method": "Get",
+    "RelativePath": "api/ShippingZone/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "duonghongluyen.Exercise02.Models.ShippingZone",
+        "MediaTypes": ["text/plain", "application/json", "text/json"],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "duonghongluyen.Exercise02.Controllers.ShippingZoneController",
+    "Method": "Put",
+    "RelativePath": "api/ShippingZone/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "shippingZone",
+        "Type": "duonghongluyen.Exercise02.Models.ShippingZone",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "duonghongluyen.Exercise02.Controllers.ShippingZoneController",
+    "Method": "Delete",
+    "RelativePath": "api/ShippingZone/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "duonghongluyen.Exercise02.Controllers.ShippingZoneCountryController",
+    "Method": "Get",
+    "RelativePath": "api/ShippingZoneCountry",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[duonghongluyen.Exercise02.Models.ShippingZoneCountry, Exercise02, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": ["text/plain", "application/json", "text/json"],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "duonghongluyen.Exercise02.Controllers.ShippingZoneCountryController",
+    "Method": "Post",
+    "RelativePath": "api/ShippingZoneCountry",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "shippingZoneCountry",
+        "Type": "duonghongluyen.Exercise02.Models.ShippingZoneCountry",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "duonghongluyen.Exercise02.Models.ShippingZoneCountry",
+        "MediaTypes": ["text/plain", "application/json", "text/json"],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "duonghongluyen.Exercise02.Controllers.ShippingZoneCountryController",
+    "Method": "Get",
+    "RelativePath": "api/ShippingZoneCountry/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "duonghongluyen.Exercise02.Models.ShippingZoneCountry",
+        "MediaTypes": ["text/plain", "application/json", "text/json"],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "duonghongluyen.Exercise02.Controllers.ShippingZoneCountryController",
+    "Method": "Put",
+    "RelativePath": "api/ShippingZoneCountry/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "shippingZoneCountry",
+        "Type": "duonghongluyen.Exercise02.Models.ShippingZoneCountry",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "duonghongluyen.Exercise02.Controllers.ShippingZoneCountryController",
+    "Method": "Delete",
+    "RelativePath": "api/ShippingZoneCountry/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "duonghongluyen.Exercise02.Controllers.SlideshowController",
+    "Method": "Get",
+    "RelativePath": "api/Slideshow",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[duonghongluyen.Exercise02.Models.Slideshow, Exercise02, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": ["text/plain", "application/json", "text/json"],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "duonghongluyen.Exercise02.Controllers.SlideshowController",
+    "Method": "Post",
+    "RelativePath": "api/Slideshow",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "slideshow",
+        "Type": "duonghongluyen.Exercise02.Models.Slideshow",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "duonghongluyen.Exercise02.Models.Slideshow",
+        "MediaTypes": ["text/plain", "application/json", "text/json"],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "duonghongluyen.Exercise02.Controllers.SlideshowController",
+    "Method": "Get",
+    "RelativePath": "api/Slideshow/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "duonghongluyen.Exercise02.Models.Slideshow",
+        "MediaTypes": ["text/plain", "application/json", "text/json"],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "duonghongluyen.Exercise02.Controllers.SlideshowController",
+    "Method": "Put",
+    "RelativePath": "api/Slideshow/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "slideshow",
+        "Type": "duonghongluyen.Exercise02.Models.Slideshow",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "duonghongluyen.Exercise02.Controllers.SlideshowController",
+    "Method": "Delete",
+    "RelativePath": "api/Slideshow/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "duonghongluyen.Exercise02.Controllers.StaffAccountController",
+    "Method": "Get",
+    "RelativePath": "api/StaffAccount",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[duonghongluyen.Exercise02.Models.StaffAccount, Exercise02, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": ["text/plain", "application/json", "text/json"],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "duonghongluyen.Exercise02.Controllers.StaffAccountController",
+    "Method": "Post",
+    "RelativePath": "api/StaffAccount",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "staffAccount",
+        "Type": "duonghongluyen.Exercise02.Models.StaffAccount",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "duonghongluyen.Exercise02.Models.StaffAccount",
+        "MediaTypes": ["text/plain", "application/json", "text/json"],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "duonghongluyen.Exercise02.Controllers.StaffAccountController",
+    "Method": "Get",
+    "RelativePath": "api/StaffAccount/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "duonghongluyen.Exercise02.Models.StaffAccount",
+        "MediaTypes": ["text/plain", "application/json", "text/json"],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "duonghongluyen.Exercise02.Controllers.StaffAccountController",
+    "Method": "Put",
+    "RelativePath": "api/StaffAccount/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "staffAccount",
+        "Type": "duonghongluyen.Exercise02.Models.StaffAccount",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "duonghongluyen.Exercise02.Controllers.StaffAccountController",
+    "Method": "Delete",
+    "RelativePath": "api/StaffAccount/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "duonghongluyen.Exercise02.Controllers.SupplierController",
+    "Method": "Get",
+    "RelativePath": "api/Supplier",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[duonghongluyen.Exercise02.Models.Supplier, Exercise02, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": ["text/plain", "application/json", "text/json"],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "duonghongluyen.Exercise02.Controllers.SupplierController",
+    "Method": "Post",
+    "RelativePath": "api/Supplier",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "supplier",
+        "Type": "duonghongluyen.Exercise02.Models.Supplier",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "duonghongluyen.Exercise02.Models.Supplier",
+        "MediaTypes": ["text/plain", "application/json", "text/json"],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "duonghongluyen.Exercise02.Controllers.SupplierController",
+    "Method": "Get",
+    "RelativePath": "api/Supplier/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "duonghongluyen.Exercise02.Models.Supplier",
+        "MediaTypes": ["text/plain", "application/json", "text/json"],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "duonghongluyen.Exercise02.Controllers.SupplierController",
+    "Method": "Put",
+    "RelativePath": "api/Supplier/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "supplier",
+        "Type": "duonghongluyen.Exercise02.Models.Supplier",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "duonghongluyen.Exercise02.Controllers.SupplierController",
+    "Method": "Delete",
+    "RelativePath": "api/Supplier/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "duonghongluyen.Exercise02.Controllers.TagController",
+    "Method": "Get",
+    "RelativePath": "api/Tag",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[duonghongluyen.Exercise02.Models.Tag, Exercise02, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": ["text/plain", "application/json", "text/json"],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "duonghongluyen.Exercise02.Controllers.TagController",
+    "Method": "Post",
+    "RelativePath": "api/Tag",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "tagDto",
+        "Type": "Exercise02.DTOs.TagDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "duonghongluyen.Exercise02.Models.Tag",
+        "MediaTypes": ["text/plain", "application/json", "text/json"],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "duonghongluyen.Exercise02.Controllers.TagController",
+    "Method": "Get",
+    "RelativePath": "api/Tag/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "duonghongluyen.Exercise02.Models.Tag",
+        "MediaTypes": ["text/plain", "application/json", "text/json"],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "duonghongluyen.Exercise02.Controllers.TagController",
+    "Method": "Put",
+    "RelativePath": "api/Tag/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "tag",
+        "Type": "duonghongluyen.Exercise02.Models.Tag",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "duonghongluyen.Exercise02.Controllers.TagController",
+    "Method": "Delete",
+    "RelativePath": "api/Tag/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "duonghongluyen.Exercise02.Controllers.TagController",
+    "Method": "Get",
+    "RelativePath": "api/Tag/name/{tagName}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "tagName",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "duonghongluyen.Exercise02.Models.Tag",
+        "MediaTypes": ["text/plain", "application/json", "text/json"],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "duonghongluyen.Exercise02.Controllers.VariantController",
+    "Method": "Get",
+    "RelativePath": "api/Variant",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[duonghongluyen.Exercise02.Models.Variant, Exercise02, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": ["text/plain", "application/json", "text/json"],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "duonghongluyen.Exercise02.Controllers.VariantController",
+    "Method": "Post",
+    "RelativePath": "api/Variant",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "variant",
+        "Type": "duonghongluyen.Exercise02.Models.Variant",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "duonghongluyen.Exercise02.Models.Variant",
+        "MediaTypes": ["text/plain", "application/json", "text/json"],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "duonghongluyen.Exercise02.Controllers.VariantController",
+    "Method": "Get",
+    "RelativePath": "api/Variant/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "duonghongluyen.Exercise02.Models.Variant",
+        "MediaTypes": ["text/plain", "application/json", "text/json"],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "duonghongluyen.Exercise02.Controllers.VariantController",
+    "Method": "Put",
+    "RelativePath": "api/Variant/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "variant",
+        "Type": "duonghongluyen.Exercise02.Models.Variant",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "duonghongluyen.Exercise02.Controllers.VariantController",
+    "Method": "Delete",
+    "RelativePath": "api/Variant/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "duonghongluyen.Exercise02.Controllers.VariantOptionController",
+    "Method": "Get",
+    "RelativePath": "api/VariantOption",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[duonghongluyen.Exercise02.Models.VariantOption, Exercise02, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": ["text/plain", "application/json", "text/json"],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "duonghongluyen.Exercise02.Controllers.VariantOptionController",
+    "Method": "Post",
+    "RelativePath": "api/VariantOption",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "variantOption",
+        "Type": "duonghongluyen.Exercise02.Models.VariantOption",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "duonghongluyen.Exercise02.Models.VariantOption",
+        "MediaTypes": ["text/plain", "application/json", "text/json"],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "duonghongluyen.Exercise02.Controllers.VariantOptionController",
+    "Method": "Get",
+    "RelativePath": "api/VariantOption/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "duonghongluyen.Exercise02.Models.VariantOption",
+        "MediaTypes": ["text/plain", "application/json", "text/json"],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "duonghongluyen.Exercise02.Controllers.VariantOptionController",
+    "Method": "Put",
+    "RelativePath": "api/VariantOption/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "variantOption",
+        "Type": "duonghongluyen.Exercise02.Models.VariantOption",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "duonghongluyen.Exercise02.Controllers.VariantOptionController",
+    "Method": "Delete",
+    "RelativePath": "api/VariantOption/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

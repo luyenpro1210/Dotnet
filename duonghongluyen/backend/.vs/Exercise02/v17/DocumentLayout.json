@@ -1,0 +1,263 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\asp-project\\Exercise02\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{294E035E-848F-42FD-8848-4295C594F687}|Exercise02.csproj|d:\\asp-project\\exercise02\\controllers\\gallerycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{294E035E-848F-42FD-8848-4295C594F687}|Exercise02.csproj|solutionrelative:controllers\\gallerycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{294E035E-848F-42FD-8848-4295C594F687}|Exercise02.csproj|d:\\asp-project\\exercise02\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{294E035E-848F-42FD-8848-4295C594F687}|Exercise02.csproj|solutionrelative:controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{294E035E-848F-42FD-8848-4295C594F687}|Exercise02.csproj|d:\\asp-project\\exercise02\\dtos\\categorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{294E035E-848F-42FD-8848-4295C594F687}|Exercise02.csproj|solutionrelative:dtos\\categorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{294E035E-848F-42FD-8848-4295C594F687}|Exercise02.csproj|d:\\asp-project\\exercise02\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{294E035E-848F-42FD-8848-4295C594F687}|Exercise02.csproj|solutionrelative:controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{294E035E-848F-42FD-8848-4295C594F687}|Exercise02.csproj|d:\\asp-project\\exercise02\\controllers\\producttagcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{294E035E-848F-42FD-8848-4295C594F687}|Exercise02.csproj|solutionrelative:controllers\\producttagcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{294E035E-848F-42FD-8848-4295C594F687}|Exercise02.csproj|d:\\asp-project\\exercise02\\controllers\\tagcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{294E035E-848F-42FD-8848-4295C594F687}|Exercise02.csproj|solutionrelative:controllers\\tagcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{294E035E-848F-42FD-8848-4295C594F687}|Exercise02.csproj|d:\\asp-project\\exercise02\\dtos\\producttaggetall.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{294E035E-848F-42FD-8848-4295C594F687}|Exercise02.csproj|solutionrelative:dtos\\producttaggetall.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{294E035E-848F-42FD-8848-4295C594F687}|Exercise02.csproj|d:\\asp-project\\exercise02\\dtos\\producttagdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{294E035E-848F-42FD-8848-4295C594F687}|Exercise02.csproj|solutionrelative:dtos\\producttagdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{294E035E-848F-42FD-8848-4295C594F687}|Exercise02.csproj|d:\\asp-project\\exercise02\\models\\producttag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{294E035E-848F-42FD-8848-4295C594F687}|Exercise02.csproj|solutionrelative:models\\producttag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{294E035E-848F-42FD-8848-4295C594F687}|Exercise02.csproj|d:\\asp-project\\exercise02\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{294E035E-848F-42FD-8848-4295C594F687}|Exercise02.csproj|solutionrelative:models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{294E035E-848F-42FD-8848-4295C594F687}|Exercise02.csproj|d:\\asp-project\\exercise02\\models\\gallery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{294E035E-848F-42FD-8848-4295C594F687}|Exercise02.csproj|solutionrelative:models\\gallery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{294E035E-848F-42FD-8848-4295C594F687}|Exercise02.csproj|d:\\asp-project\\exercise02\\dtos\\gallerydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{294E035E-848F-42FD-8848-4295C594F687}|Exercise02.csproj|solutionrelative:dtos\\gallerydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{294E035E-848F-42FD-8848-4295C594F687}|Exercise02.csproj|d:\\asp-project\\exercise02\\controllers\\suppliercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{294E035E-848F-42FD-8848-4295C594F687}|Exercise02.csproj|solutionrelative:controllers\\suppliercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{294E035E-848F-42FD-8848-4295C594F687}|Exercise02.csproj|d:\\asp-project\\exercise02\\dtos\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{294E035E-848F-42FD-8848-4295C594F687}|Exercise02.csproj|solutionrelative:dtos\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{294E035E-848F-42FD-8848-4295C594F687}|Exercise02.csproj|d:\\asp-project\\exercise02\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{294E035E-848F-42FD-8848-4295C594F687}|Exercise02.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ProductTag.cs",
+              "DocumentMoniker": "D:\\asp-project\\Exercise02\\Models\\ProductTag.cs",
+              "RelativeDocumentMoniker": "Models\\ProductTag.cs",
+              "ToolTip": "D:\\asp-project\\Exercise02\\Models\\ProductTag.cs",
+              "RelativeToolTip": "Models\\ProductTag.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAmwBIAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-14T09:12:40.497Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TagController.cs",
+              "DocumentMoniker": "D:\\asp-project\\Exercise02\\Controllers\\TagController.cs",
+              "RelativeDocumentMoniker": "Controllers\\TagController.cs",
+              "ToolTip": "D:\\asp-project\\Exercise02\\Controllers\\TagController.cs",
+              "RelativeToolTip": "Controllers\\TagController.cs",
+              "ViewState": "AQIAAEkAAAAAAAAAAAAqwGUAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-14T08:54:28.626Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ProductTagController.cs",
+              "DocumentMoniker": "D:\\asp-project\\Exercise02\\Controllers\\ProductTagController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProductTagController.cs",
+              "ToolTip": "D:\\asp-project\\Exercise02\\Controllers\\ProductTagController.cs",
+              "RelativeToolTip": "Controllers\\ProductTagController.cs",
+              "ViewState": "AQIAAEUAAAAAAAAAAAAmwFYAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-14T06:18:40.766Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "D:\\asp-project\\Exercise02\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CategoryController.cs",
+              "ToolTip": "D:\\asp-project\\Exercise02\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "Controllers\\CategoryController.cs",
+              "ViewState": "AQIAAK8AAAAAAAAAAAAwwMEAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-14T06:50:01.43Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "D:\\asp-project\\Exercise02\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProductController.cs",
+              "ToolTip": "D:\\asp-project\\Exercise02\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "Controllers\\ProductController.cs",
+              "ViewState": "AQIAAFYAAAAAAAAAAAAqwGUAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-14T05:50:37.497Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CategoryDTO.cs",
+              "DocumentMoniker": "D:\\asp-project\\Exercise02\\DTOs\\CategoryDTO.cs",
+              "RelativeDocumentMoniker": "DTOs\\CategoryDTO.cs",
+              "ToolTip": "D:\\asp-project\\Exercise02\\DTOs\\CategoryDTO.cs",
+              "RelativeToolTip": "DTOs\\CategoryDTO.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAuwAUAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-15T18:57:20.819Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GalleryController.cs",
+              "DocumentMoniker": "D:\\asp-project\\Exercise02\\Controllers\\GalleryController.cs",
+              "RelativeDocumentMoniker": "Controllers\\GalleryController.cs",
+              "ToolTip": "D:\\asp-project\\Exercise02\\Controllers\\GalleryController.cs",
+              "RelativeToolTip": "Controllers\\GalleryController.cs",
+              "ViewState": "AQIAAFQAAAAAAAAAAAAWwGAAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-15T15:49:24.067Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "SupplierController.cs",
+              "DocumentMoniker": "D:\\asp-project\\Exercise02\\Controllers\\SupplierController.cs",
+              "RelativeDocumentMoniker": "Controllers\\SupplierController.cs",
+              "ToolTip": "D:\\asp-project\\Exercise02\\Controllers\\SupplierController.cs",
+              "RelativeToolTip": "Controllers\\SupplierController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-14T09:15:17.953Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "GalleryDTO.cs",
+              "DocumentMoniker": "D:\\asp-project\\Exercise02\\DTOs\\GalleryDTO.cs",
+              "RelativeDocumentMoniker": "DTOs\\GalleryDTO.cs",
+              "ToolTip": "D:\\asp-project\\Exercise02\\DTOs\\GalleryDTO.cs",
+              "RelativeToolTip": "DTOs\\GalleryDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-15T15:57:13.206Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Gallery.cs",
+              "DocumentMoniker": "D:\\asp-project\\Exercise02\\Models\\Gallery.cs",
+              "RelativeDocumentMoniker": "Models\\Gallery.cs",
+              "ToolTip": "D:\\asp-project\\Exercise02\\Models\\Gallery.cs",
+              "RelativeToolTip": "Models\\Gallery.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAiwCQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-15T17:02:55.211Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ProductTagDto.cs",
+              "DocumentMoniker": "D:\\asp-project\\Exercise02\\DTOs\\ProductTagDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\ProductTagDto.cs",
+              "ToolTip": "D:\\asp-project\\Exercise02\\DTOs\\ProductTagDto.cs",
+              "RelativeToolTip": "DTOs\\ProductTagDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-15T17:14:26.38Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ProductTagGetAll.cs",
+              "DocumentMoniker": "D:\\asp-project\\Exercise02\\DTOs\\ProductTagGetAll.cs",
+              "RelativeDocumentMoniker": "DTOs\\ProductTagGetAll.cs",
+              "ToolTip": "D:\\asp-project\\Exercise02\\DTOs\\ProductTagGetAll.cs",
+              "RelativeToolTip": "DTOs\\ProductTagGetAll.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-15T17:14:43.719Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ProductDTO.cs",
+              "DocumentMoniker": "D:\\asp-project\\Exercise02\\DTOs\\ProductDTO.cs",
+              "RelativeDocumentMoniker": "DTOs\\ProductDTO.cs",
+              "ToolTip": "D:\\asp-project\\Exercise02\\DTOs\\ProductDTO.cs",
+              "RelativeToolTip": "DTOs\\ProductDTO.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-14T07:09:01.563Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\asp-project\\Exercise02\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\asp-project\\Exercise02\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAswBAAAABRAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-14T06:36:25.82Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Product.cs",
+              "DocumentMoniker": "D:\\asp-project\\Exercise02\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "Models\\Product.cs",
+              "ToolTip": "D:\\asp-project\\Exercise02\\Models\\Product.cs",
+              "RelativeToolTip": "Models\\Product.cs",
+              "ViewState": "AQIAAGUAAAAAAAAAAAAuwHQAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-14T05:55:22.288Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
